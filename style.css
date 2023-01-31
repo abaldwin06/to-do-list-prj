@@ -18,15 +18,14 @@ main {
 }
 
 #addtaskssection, .task {
+    display: grid;
     margin: 1rem 4rem;
     padding: 1rem;
     background-color: blanchedalmond;
     border: 3px solid lightblue;
-
 }
 
 #addtaskssection {
-    display: grid;
     grid-template-columns: 10rem 1fr 10rem;
 }
 
@@ -35,7 +34,24 @@ main {
     line-height: 2rem;
 }
 
-
 .task {
+    grid-template-columns: 10rem 1fr 5rem 5rem;
+}
 
+.task * {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 2rem;
+}
+
+.task span {
+    font-size: 1.25rem;
+    padding: .25rem;
+}
+
+.task button {
+    margin-left: .25rem;
+    margin-right: .25rem;
+    text-align: center;
+    padding: .25rem;
 }
