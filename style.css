@@ -1,0 +1,41 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    padding-inline-start: 0px;
+}
+
+header,footer {
+    text-align: center;
+    height: 15vh;
+    background-color: lightblue;
+    border: 3px solid blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+    min-height: 68vh;
+}
+
+#addtaskssection, .task {
+    margin: 1rem 4rem;
+    padding: 1rem;
+    background-color: blanchedalmond;
+    border: 3px solid lightblue;
+
+}
+
+#addtaskssection {
+    display: grid;
+    grid-template-columns: 10rem 1fr 10rem;
+}
+
+#addtaskssection * {
+    margin: 1rem;
+    line-height: 2rem;
+}
+
+
+.task {
+
+}
